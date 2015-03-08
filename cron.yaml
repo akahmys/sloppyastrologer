@@ -1,0 +1,15 @@
+cron:
+- description: update
+  url: /update
+  schedule: every mon,tue,wed,thu,fri 8:15
+  timezone: Asia/Tokyo
+
+- description: update
+  url: /update
+  schedule: every mon,tue,wed,thu,fri 12:00
+  timezone: Asia/Tokyo
+
+- description: update
+  url: /update
+  schedule: every mon,tue,wed,thu,fri 23:45
+  timezone: Asia/Tokyo
